@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: test-ingress
-        image: michav1/ui:0.1.1
+        image: michav1/test-ingress:0.1.2
         ports:
         - containerPort: 80
 
